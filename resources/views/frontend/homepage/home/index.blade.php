@@ -94,14 +94,14 @@
                             <article class="article">
                                 <div class="uk-grid uk-grid-collapse mb15">
                                     <div class="uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-2-3">
-                                        <div class="thumb img-flash"><a class="img-cover" href="{{ write_url('about-us') }}" title="Introduce"><img src="/uploads/.thumbs/images/bai-viet/post-1.png" alt="Introduce"></a></div>
+                                        <div class="thumb img-flash"><a class="img-cover" href="{{ write_url('about-us') }}" title="Introduce"><img src="/userfiles/image/product/z7041413494280_b36c254e7dcb3fc444984a09cff48259.jpg" alt="Introduce"></a></div>
                                     </div>
                                     <div class="uk-width-small-1-2 uk-width-medium-1-1 uk-width-large-1-3">
                                         <h3 class="title uk-text-center"><a href="{{ write_url('about-us') }}" title="Introduce">Duc hanh Handicraft</a></h3>
                                     </div>
                                 </div>
                                 <div class="description">
-                                    Established in 2007,&nbsp;Duchanh Handicraft Co. Ltd has been proved itself to be a leading company in producing and exporting handicraft products in Vietnam. 								</div>
+                                    Established in 2007,&nbsp;Duchanh Handicraft Co. Ltd has been proved itself to be a leading company in producing and exporting handicraft products in Vietnam.</div>
                             </article><!-- .article -->
                         </div><!-- .panel-body -->
                     </section><!-- .home-introduction -->

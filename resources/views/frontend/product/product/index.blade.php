@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="uk-container uk-container-center">
-            <div class="main-content product-main-content mt30">
+            <div class="main-content product-main-content mt30 uk-hidden">
                 <div class="uk-grid uk-grid-medium">
                     <div class="uk-width-medium-3-4">
                         <div class="tabs-content">

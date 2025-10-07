@@ -16,7 +16,7 @@
     "src": "public/vendor/frontend/img/project/phone-call-18a26086.png"
   },
   "resources/css/app.scss": {
-    "file": "assets/app-2d3dd402.css",
+    "file": "assets/app-bd1e1aa7.css",
     "isEntry": true,
     "src": "resources/css/app.scss"
   },
@@ -73,15 +73,15 @@
   },
   "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.ttf": {
     "file": "assets/fontawesome-webfont-aa58f33f.ttf",
-    "src": "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf"
+    "src": "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.ttf"
   },
   "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.woff": {
     "file": "assets/fontawesome-webfont-ba0c59de.woff",
-    "src": "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff"
+    "src": "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.woff"
   },
   "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.woff2": {
     "file": "assets/fontawesome-webfont-2adefcbc.woff2",
-    "src": "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2"
+    "src": "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.woff2"
   },
   "resources/vendor/backend/fonts/glyphicons-halflings-regular.eot": {
     "file": "assets/glyphicons-halflings-regular-13634da8.eot",
@@ -129,15 +129,15 @@
   },
   "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf": {
     "file": "assets/fontawesome-webfont-aa58f33f.ttf",
-    "src": "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf"
+    "src": "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.ttf"
   },
   "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff": {
     "file": "assets/fontawesome-webfont-ba0c59de.woff",
-    "src": "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff"
+    "src": "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.woff"
   },
   "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2": {
     "file": "assets/fontawesome-webfont-2adefcbc.woff2",
-    "src": "resources/vendor/frontend/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2"
+    "src": "resources/vendor/backend/font-awesome/fonts/fontawesome-webfont.woff2"
   },
   "resources/vendor/frontend/resources/fonts/uicons-regular-straight.woff2": {
     "file": "assets/uicons-regular-straight-e013f9ca.woff2",

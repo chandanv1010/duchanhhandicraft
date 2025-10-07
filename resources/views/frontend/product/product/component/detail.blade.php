@@ -25,7 +25,7 @@
                     </div>
                     <div class="buttons">
                         {{-- <a href="" title="" class="btn btn-register"><span>Đăng ký ngay</span></a> --}}
-                        <a href="" class="preview-video" data-video="{{ json_encode($product->iframe) }}" title="" class="btn btn-demo"><span>Watch Video</span></a>
+                        {{-- <a href="" class="preview-video" data-video="{{ json_encode($product->iframe) }}" title="" class="btn btn-demo"><span>Watch Video</span></a> --}}
                     </div>
                 </div>
             </div>
@@ -46,12 +46,12 @@
                         </a>
                     </div>
                 @else 
-                    <span class="image img-scaledown product-preview-image p-r">
+                    <a href="{{ $product->image }}" data-uk-lightbox="" class="image img-scaledown product-preview-image p-r">
                         <div class="bg">
                             {!! $qrcode !!}
                         </div>
                         <img src="{{ $product->image }}" alt="{{ $product->name }}">
-                    </span>
+                    </a>
                 @endif
             </div>
         </div>

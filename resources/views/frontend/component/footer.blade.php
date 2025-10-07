@@ -5,7 +5,7 @@
                 <h3 class="heading-2 wow fadeInDown" data-wow-delay="0.3s"><span>{{ $system['homepage_company'] }}</span></h3>
             </div>
             <div class="uk-grid uk-grid-medium">
-                <div class="uk-width-medium-1-2">
+                <div class="uk-width-medium-3-5">
                     <div class="info-company wow fadeInDown" data-wow-delay="0.3s">
                         <p class="office">Office</p>
                         <p class="address">- Address: {{ $system['contact_office'] }}</p>
@@ -17,9 +17,9 @@
                         <p class="website">- Website: <a href="{{ $system['contact_website'] }}">{{ $system['contact_website'] }}</a></p>
                     </div>
                 </div>
-                <div class="uk-width-medium-1-2">
+                <div class="uk-width-medium-2-5">
                     <div class="uk-grid uk-grid-large">
-                        <div class="uk-width-1-2">
+                        {{-- <div class="uk-width-1-2">
                             <div class="uk-grid uk-grid-medium">
                                 @if($menu['footer-menu'])
                                 @foreach($menu['footer-menu'] as $key => $val)
@@ -48,8 +48,8 @@
                                 @endforeach
                                 @endif
                             </div>
-                        </div>
-                        <div class="uk-width-medium-1-2">
+                        </div> --}}
+                        <div class="uk-width-medium-1-1">
                             <div class="footer-menu__item wow fadeInDown" data-wow-delay="0.3s">
                                 <h3 class="heading-2"><span>Social</span></h3>
                                 <div class="panel-body">
