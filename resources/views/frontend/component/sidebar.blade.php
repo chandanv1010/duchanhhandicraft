@@ -23,9 +23,9 @@
         @endforeach
         @endif
 
-        <div class="aside-map">
+        {{-- <div class="aside-map">
             {!! $system['contact_map'] !!}
-        </div>
+        </div> --}}
     </div>
 
 </aside>

@@ -53,7 +53,7 @@
         <div class="contact-info">
             <div class="uk-container uk-container-center">
                 <div class="uk-grid uk-grid-medium">
-                    <div class="uk-width-medium-2-5">
+                    <div class="uk-width-medium-2-5 uk-container-center">
                         <div class="contact-details">
                             <h3 class="heading-2"><span>Company Information</span></h3>
                             <div class="info">
@@ -86,11 +86,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="uk-width-medium-3-5">
+                    {{-- <div class="uk-width-medium-3-5">
                         <div class="map-container">
                             {!! $system['contact_map'] !!}
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
