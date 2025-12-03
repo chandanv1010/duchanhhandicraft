@@ -307,7 +307,9 @@ class ProductService extends BaseService
         if(!is_null($sellerId)){
             $payload['seller_id'] = $sellerId;
         }
-        $payload['lecture_id'] = null;
+        $lecturerId = $request->input('lecturer_id');
+        $payload['lecturer_id'] = ($lecturerId && $lecturerId > 0) ? $lecturerId : null;
+        $payload['iframe'] = $request->input('iframe') ?? '';
         $product = $this->productRepository->create($payload);
         return $product;
     }
@@ -316,8 +318,9 @@ class ProductService extends BaseService
         $payload = $request->only($this->payload());
         $payload['album'] = $this->formatAlbum($request);
         $payload['price'] = convert_price($payload['price']);
-        $payload['lecturer_id'] = null;
-
+        $lecturerId = $request->input('lecturer_id');
+        $payload['lecturer_id'] = ($lecturerId && $lecturerId > 0) ? $lecturerId : null;
+        $payload['iframe'] = $request->input('iframe') ?? '';
 
         if(!isset($payload['attribute'])){
             $payload['attribute'] = null;
